@@ -1,3 +1,3 @@
 # menu
 
-created a frontend design of menu using checkbox element but not javascript
+created a frontend design of a non-functional menu using checkbox element but not javascript.
