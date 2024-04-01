@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_box{
+    background: url(thumbnail-1.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover; 
+}
+.sidebar_menu{
+    box-shadow: 0 0 5px grey;
+    height: 87.79vh;
+    width: 250px;
+    position: absolute;
+    left: -300px;
+    top: 85px;
+    background-color: rgba(255, 255, 0, 0.1);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    opacity: 0.8;
+    transition: all 0.5s linear;
+}
+.btn_one{
+    font-size:60px;
+    margin-left: 30px;
+    font-family: 'Architects Daughter', cursive; 
+}
+.btn_one i{
+    transition: all 0.2s  linear;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Architects Daughter', cursive;
+}
+.logo{
+    position: relative;
+    box-shadow: 0 2px 5px black;
+    border-top-right-radius: 10px;  
+}
+.btn_two{
+    position: relative;
+    left: 200px;
+    font-size: 45px;
+    top: -59px;
+    color: black;
+}
+.menu{
+    line-height: 60px;
+    font-size: 25px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Patrick Hand', cursive;
+}
+.menu li{
+    padding-left: 30px;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+.social_media{
+    position: relative;
+    top: 35px; 
+    left: 45px;
+    font-size: 25px;
+}
+.social_media i{
+    padding-left: 6px;
+    opacity: 0.6;
+}
+.menu li:hover{
+    box-shadow: 0 0 3px black;
+    border-radius: 3px;
+    transition-timing-function: ease-in-out;
+}
+.btn_one i:hover{
+    font-size: 62px;
+}
+input{
+    position: relative;
+    bottom: 100px;
+}
+.social_media i:hover{
+    opacity: 1;
+    font-size: 25.5px;
+    transition: all 0.5s ease-in linear;
+}
+input:checked ~ .sidebar_menu{
+  left: 0;
+}
